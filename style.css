@@ -1,0 +1,53 @@
+#last-roll {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  width: 80%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #ffe6cc;
+}
+
+#current-roll {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5em;
+  width: 80%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #ffff99;
+}
+
+#next-roll {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: #f7ffe6;
+}
+
+#next-roll p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+/* Disable user select on all elements */
+* {
+-webkit-touch-callout:none;
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+
+/* No support for these yet, use at own risk */
+-o-user-select: none;
+user-select: none;
+}
